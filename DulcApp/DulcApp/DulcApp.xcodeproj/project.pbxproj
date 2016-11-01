@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAACCF831DC7C0AF004390C7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAACCF821DC7C0AF004390C7 /* MapKit.framework */; };
+		FAB80CF71DBE86BA00903809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB80CF61DBE86BA00903809 /* AppDelegate.swift */; };
+		FAB80CF91DBE86BA00903809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB80CF81DBE86BA00903809 /* ViewController.swift */; };
+		FAB80CFC1DBE86BA00903809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB80CFA1DBE86BA00903809 /* Main.storyboard */; };
+		FAB80CFE1DBE86BA00903809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB80CFD1DBE86BA00903809 /* Assets.xcassets */; };
+		FAB80D011DBE86BA00903809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB80CFF1DBE86BA00903809 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAACCF821DC7C0AF004390C7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FAB80CF31DBE86BA00903809 /* DulcApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DulcApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB80CF61DBE86BA00903809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAB80CF81DBE86BA00903809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAB80CFB1DBE86BA00903809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAB80CFD1DBE86BA00903809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB80D001DBE86BA00903809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAB80D021DBE86BA00903809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB80CF01DBE86BA00903809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAACCF831DC7C0AF004390C7 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB80CEA1DBE86BA00903809 = {
+			isa = PBXGroup;
+			children = (
+				FAACCF821DC7C0AF004390C7 /* MapKit.framework */,
+				FAB80CF51DBE86BA00903809 /* DulcApp */,
+				FAB80CF41DBE86BA00903809 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB80CF41DBE86BA00903809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB80CF31DBE86BA00903809 /* DulcApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB80CF51DBE86BA00903809 /* DulcApp */ = {
+			isa = PBXGroup;
+			children = (
+				FAB80CF61DBE86BA00903809 /* AppDelegate.swift */,
+				FAB80CF81DBE86BA00903809 /* ViewController.swift */,
+				FAB80CFA1DBE86BA00903809 /* Main.storyboard */,
+				FAB80CFD1DBE86BA00903809 /* Assets.xcassets */,
+				FAB80CFF1DBE86BA00903809 /* LaunchScreen.storyboard */,
+				FAB80D021DBE86BA00903809 /* Info.plist */,
+			);
+			path = DulcApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB80CF21DBE86BA00903809 /* DulcApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB80D051DBE86BA00903809 /* Build configuration list for PBXNativeTarget "DulcApp" */;
+			buildPhases = (
+				FAB80CEF1DBE86BA00903809 /* Sources */,
+				FAB80CF01DBE86BA00903809 /* Frameworks */,
+				FAB80CF11DBE86BA00903809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DulcApp;
+			productName = DulcApp;
+			productReference = FAB80CF31DBE86BA00903809 /* DulcApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB80CEB1DBE86BA00903809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = UdeM;
+				TargetAttributes = {
+					FAB80CF21DBE86BA00903809 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FAB80CEE1DBE86BA00903809 /* Build configuration list for PBXProject "DulcApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB80CEA1DBE86BA00903809;
+			productRefGroup = FAB80CF41DBE86BA00903809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB80CF21DBE86BA00903809 /* DulcApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB80CF11DBE86BA00903809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB80D011DBE86BA00903809 /* LaunchScreen.storyboard in Resources */,
+				FAB80CFE1DBE86BA00903809 /* Assets.xcassets in Resources */,
+				FAB80CFC1DBE86BA00903809 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB80CEF1DBE86BA00903809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB80CF91DBE86BA00903809 /* ViewController.swift in Sources */,
+				FAB80CF71DBE86BA00903809 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAB80CFA1DBE86BA00903809 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB80CFB1DBE86BA00903809 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAB80CFF1DBE86BA00903809 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB80D001DBE86BA00903809 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB80D031DBE86BA00903809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAB80D041DBE86BA00903809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB80D061DBE86BA00903809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DulcApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UdeM.DulcApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAB80D071DBE86BA00903809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DulcApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UdeM.DulcApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB80CEE1DBE86BA00903809 /* Build configuration list for PBXProject "DulcApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB80D031DBE86BA00903809 /* Debug */,
+				FAB80D041DBE86BA00903809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB80D051DBE86BA00903809 /* Build configuration list for PBXNativeTarget "DulcApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB80D061DBE86BA00903809 /* Debug */,
+				FAB80D071DBE86BA00903809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB80CEB1DBE86BA00903809 /* Project object */;
+}
